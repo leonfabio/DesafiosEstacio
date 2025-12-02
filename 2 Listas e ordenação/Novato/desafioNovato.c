@@ -24,6 +24,7 @@ int main() {
 		printf("\n--DESAFIO NOVATO--\n");
 		printf("\n=================\n");
         printf("\n MOCHILA FREE FIRE \n");
+		printf("\nItens na mochila %d/10\n\n",cont);
         printf("1 - Inserir item\n");
         printf("2 - Remover item\n");
         printf("3 - Listar itens\n");
