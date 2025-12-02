@@ -21,9 +21,9 @@ int main() {
     int opcao;
 
     do {
-		printf("\n=================\n");
-		printf("\n--DESAFIO NOVATO--\n");
-		printf("\n=================\n");
+		printf("\n=======================\n");
+		printf("\n--DESAFIO AVENTUREIRO--\n");
+		printf("\n=======================\n");
         printf("\n MOCHILA FREE FIRE \n");
 		printf("\nItens na mochila %d/10\n\n",cont);
         printf("1 - Inserir item\n");
@@ -132,6 +132,7 @@ void listarItens(Item mochila[], int cont) {
     }
 }
 
+// ------------------------ FUNÇÃO BUSCAR ------------------------
 void buscarItens(Item mochila[], int cont) {
 	if (cont == 0) {
         printf("A mochila está vazia, nada para remover.\n");
